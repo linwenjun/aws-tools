@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "pm2 start app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,8 @@
   "dependencies": {
     "express": "^4.17.0",
     "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "pm2": "^3.5.0"
   }
 }
